@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="18.738" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/lackymail10gmai/eclipse-workspace/SwagLabsAutomation/target/test-classes:/home/lackymail10gmai/eclipse-workspace/SwagLabsAutomation/target/classes:/home/lackymail10gmai/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/home/lackymail10gmai/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/home/lackymail10gmai/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/home/lackymail10gmai/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/home/lackymail10gmai/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/lackymail10gmai/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/lackymail10gmai/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/lackymail10gmai/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/lackymail10gmai/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/lackymail10gmai/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/lackymail10gmai/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/lackymail10gmai/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/lackymail10gmai/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/lackymail10gmai/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/lackymail10gmai/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/lackymail10gmai/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/lackymail10gmai/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/lackymail10gmai/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/lackymail10gmai/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/lackymail10gmai/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/lackymail10gmai/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/lackymail10gmai/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/lackymail10gmai/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/lackymail10gmai/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/lackymail10gmai/.m2/repository/io/github/bonigarcia/webdrivermanager/5.6.0/webdrivermanager-5.6.0.jar:/home/lackymail10gmai/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar:/home/lackymail10gmai/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/home/lackymail10gmai/.m2/repository/com/github/docker-java/docker-java/3.3.3/docker-java-3.3.3.jar:/home/lackymail10gmai/.m2/repository/com/github/docker-java/docker-java-core/3.3.3/docker-java-core-3.3.3.jar:/home/lackymail10gmai/.m2/repository/com/github/docker-java/docker-java-api/3.3.3/docker-java-api-3.3.3.jar:/home/lackymail10gmai/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/home/lackymail10gmai/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/home/lackymail10gmai/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/home/lackymail10gmai/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/home/lackymail10gmai/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.75/bcpkix-jdk18on-1.75.jar:/home/lackymail10gmai/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.75/bcprov-jdk18on-1.75.jar:/home/lackymail10gmai/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.75/bcutil-jdk18on-1.75.jar:/home/lackymail10gmai/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/home/lackymail10gmai/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.3/docker-java-transport-httpclient5-3.3.3.jar:/home/lackymail10gmai/.m2/repository/com/github/docker-java/docker-java-transport/3.3.3/docker-java-transport-3.3.3.jar:/home/lackymail10gmai/.m2/repository/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar:/home/lackymail10gmai/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/home/lackymail10gmai/.m2/repository/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar:/home/lackymail10gmai/.m2/repository/org/apache/commons/commons-compress/1.24.0/commons-compress-1.24.0.jar:/home/lackymail10gmai/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/home/lackymail10gmai/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/home/lackymail10gmai/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="user.timezone" value="Etc/UTC"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/lackymail10gmai/eclipse-workspace/SwagLabsAutomation/target/surefire/surefirebooter7010370190247517813.jar /home/lackymail10gmai/eclipse-workspace/SwagLabsAutomation/target/surefire 2024-02-16T14-43-03_925-jvmRun1 surefire14778109269454436633tmp surefire_02643871868209551581tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/lackymail10gmai/eclipse-workspace/SwagLabsAutomation/target/test-classes:/home/lackymail10gmai/eclipse-workspace/SwagLabsAutomation/target/classes:/home/lackymail10gmai/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/home/lackymail10gmai/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/home/lackymail10gmai/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/home/lackymail10gmai/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/home/lackymail10gmai/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/lackymail10gmai/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/lackymail10gmai/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/lackymail10gmai/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/lackymail10gmai/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/lackymail10gmai/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/lackymail10gmai/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/lackymail10gmai/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/lackymail10gmai/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/lackymail10gmai/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/lackymail10gmai/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/lackymail10gmai/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/lackymail10gmai/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/lackymail10gmai/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/lackymail10gmai/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/lackymail10gmai/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/lackymail10gmai/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/lackymail10gmai/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/lackymail10gmai/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/lackymail10gmai/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/lackymail10gmai/.m2/repository/io/github/bonigarcia/webdrivermanager/5.6.0/webdrivermanager-5.6.0.jar:/home/lackymail10gmai/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar:/home/lackymail10gmai/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/home/lackymail10gmai/.m2/repository/com/github/docker-java/docker-java/3.3.3/docker-java-3.3.3.jar:/home/lackymail10gmai/.m2/repository/com/github/docker-java/docker-java-core/3.3.3/docker-java-core-3.3.3.jar:/home/lackymail10gmai/.m2/repository/com/github/docker-java/docker-java-api/3.3.3/docker-java-api-3.3.3.jar:/home/lackymail10gmai/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/home/lackymail10gmai/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/home/lackymail10gmai/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/home/lackymail10gmai/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/home/lackymail10gmai/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.75/bcpkix-jdk18on-1.75.jar:/home/lackymail10gmai/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.75/bcprov-jdk18on-1.75.jar:/home/lackymail10gmai/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.75/bcutil-jdk18on-1.75.jar:/home/lackymail10gmai/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/home/lackymail10gmai/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.3/docker-java-transport-httpclient5-3.3.3.jar:/home/lackymail10gmai/.m2/repository/com/github/docker-java/docker-java-transport/3.3.3/docker-java-transport-3.3.3.jar:/home/lackymail10gmai/.m2/repository/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar:/home/lackymail10gmai/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/home/lackymail10gmai/.m2/repository/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar:/home/lackymail10gmai/.m2/repository/org/apache/commons/commons-compress/1.24.0/commons-compress-1.24.0.jar:/home/lackymail10gmai/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/home/lackymail10gmai/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/home/lackymail10gmai/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/lackymail10gmai"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/lackymail10gmai/eclipse-workspace/SwagLabsAutomation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/lackymail10gmai/eclipse-workspace/SwagLabsAutomation/target/surefire/surefirebooter7010370190247517813.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.21+9-post-Ubuntu-0ubuntu120.04"/>
+    <property name="user.name" value="lackymail10gmai"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.15.0-1052-aws"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/lackymail10gmai/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.21"/>
+    <property name="user.dir" value="/home/lackymail10gmai/eclipse-workspace/SwagLabsAutomation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="webdriver.gecko.driver" value="/home/lackymail10gmai/.cache/selenium/geckodriver/linux64/0.32.0/geckodriver"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="11.0.21+9-post-Ubuntu-0ubuntu120.04"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="LoginFailiureTest" classname="Uitest.LoginTest" time="5.42">
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+The error message is Epic sadface: Username and password do not match any user in this service
+]]></system-out>
+    <system-err><![CDATA[SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+1708094585687	geckodriver	INFO	Listening on 127.0.0.1:10111
+1708094585862	mozrunner::runner	INFO	Running command: "/opt/firefox/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile5sHpCC"
+1708094586342	Marionette	INFO	Marionette enabled
+1708094586347	Marionette	INFO	Listening on port 43949
+Read port: 43949
+1708094586439	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5sHpCC/search.json.mozlz4", (void 0)))
+Feb 16, 2024 2:43:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+]]></system-err>
+  </testcase>
+  <testcase name="LoginSuccessTest" classname="Uitest.LoginTest" time="5.422">
+    <system-out><![CDATA[The error message is Products
+]]></system-out>
+    <system-err><![CDATA[1708094593770	Marionette	INFO	Stopped listening on port 43949
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemJetavraySScersipsti oernr.ojrs:m r:e1s0o1ur4c:3e:6/
+/gsrhe/muotdduloewsn/CAshyrnocmSehuPtrdoowcne.sjssm/,c lleianne u7p03/: <E@rrroers:o Puharscee ":p/ro/fgirlee/-mboeduflorees-/chTealngeem"e its rfyinSiesshesdi,on .ijts mi:s1 t2o3o2 l:at2e0 
+tcol ereagniustepr @croemspoluertcieo:n /c/ognrdei/tmiodounl e"sO/TS.eFlielmee:t rfylSuesshs iIo/nO. jqsmu:e1ue2d3 9b:e9f
+osrhe uptrdoofwinlCehBreofmoerPerCohcaengess@resource://gre/modules/TelemetrySession.jsm:12"5
+6:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileJBaevfaoSrcerCihpatn egrer"o ra:t  raedsdoBulroccek:e/r/@rgerseo/muordcuel:e/s//Agsryen/mcoSdhuultedso/wAns.ynjcSshmutdow,n .ljsim:n70e3 :175
+0a3dd:Bl oErcrkoerr:@ rPehsaosuerce :"/p/rgorfei/lmeod-ublees/foArsey-nccShange" hiust dofwinn.ijsshm:e5d1,1 :i2t6 
+iasd dtBoloo clkaetre@ rteo sroeugrciest:e/r/ gcroem/pmloedutlieosn/ AcsoynndciSthiuotnd o"wOnS..jsFmi:l4e5:0 :1f5l
+usseht upISh/uOt doqwune@ureeds oburecfeo:r/e/g rper/omfodiulleesB/eofsofrieClhea/nogsef"i
+le_asyJnacv_afSrcorntip.tj semr:r1o5r6:3 :r28e
+s@oreusrocuer:c/e://g/rger/em/omodduulleess//AossyfncShuitldeo/wons.fijlsem_,a sylnicn_ef r7o0n3t:. jEsrmr:o15r8:3 :P1h6a
+s@er e"sporuorfciel:e/-/gbreef/omroed-uclheasn/gosefi"l ei.sj fsmi:n1i2s:h3ed0,
+ @irte soisu rtcoeo :l/a/tgree t/moo dulregeiss/tTeerl ecmoemtprlyeSttioorna gceo.njdsimt:i1o9n "OS.File: flush I/O queued before p:ro2f8i
+lgeeBteSfhouretCdhoanwgneS"t
+Jaatvea@rSecsoruirpcet:/ /egrrre/moord:u lrees/sToeulermectery:S/en/dg.rjsem/:m1o6d8u7l:e7s
+/gAetsSynhcuSthduotwdnoSwtna.tjes@mr,e sloiunrec e7:0/3/:g rEer/rmoord:u lPehsa/sTee l"epmreotfriylSee-nbde.fjosrme:-3c6h9a:n3g0
+e_"g eitsS tfainties@hreeds,o uircte :i/s/ gtroe/om oladtuel etso/ TreelgeimetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resources://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+ter completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1708094594629	geckodriver	INFO	Listening on 127.0.0.1:29623
+1708094594646	mozrunner::runner	INFO	Running command: "/opt/firefox/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilePpTSBp"
+1708094595140	Marionette	INFO	Marionette enabled
+1708094595144	Marionette	INFO	Listening on port 38843
+Read port: 38843
+1708094595235	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePpTSBp/search.json.mozlz4", (void 0)))
+Feb 16, 2024 2:43:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+]]></system-err>
+  </testcase>
+</testsuite>
